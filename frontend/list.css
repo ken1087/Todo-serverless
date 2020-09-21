@@ -1,0 +1,53 @@
+.list-enter-active,
+.list-leave-active {
+  transition: all 1s;
+}
+
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+li {
+  display: flex;
+  min-height: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0.5rem 0;
+  padding: 0 0.9rem;
+  background: white;
+  border-radius: 5px;
+}
+
+.checkBtn {
+  border-style: none;
+  line-height: 45px;
+  color: #006eff;
+  margin-right: 5px;
+}
+
+.removeBtn {
+  margin-left: 10px;
+  color: #de4343;
+}
+
+.removeBtn:hover {
+  cursor: pointer;
+}
+
+.updateBtn {
+  margin-left: auto;
+  color: #de4343;
+}
+
+.updateBtn:hover {
+  cursor: pointer;
+}
